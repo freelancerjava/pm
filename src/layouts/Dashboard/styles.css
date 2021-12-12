@@ -1,0 +1,197 @@
+html{
+    overflow-y: hidden !important;
+}
+.overflow-hidden {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.overflow-scroll {
+    overflow: scroll;
+    height: 100vh;
+    width: 100vw;
+}
+
+.custom_button {
+    position: absolute;
+    bottom: 10%;
+    right: 0.5%;
+}
+
+.tabs {
+    display: table-cell;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+  
+
+/***
+    logo
+***/
+
+.levitate-body {
+    /* position: fixed; */
+    z-index: 500;
+    /* height: 0; */
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.fab-logo :hover {
+    /* transition: 0.3s ease all;
+    opacity: 0.5; */
+}
+
+.fab-logo {
+    transition: 0.3s ease all;
+    border-radius: 50%;
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.493);
+}
+
+i {
+    
+    
+}
+
+.fab-logo i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 60px;
+    color: #fff;
+    font: 700 50px Tahoma;
+    text-shadow: 0px 0px #819da6, 1px 1px #819da6, 2px 2px #819da6, 3px 3px #819da6, 4px 4px #819da6, 5px 5px #819da6, 6px 6px #819da6, 7px 7px #819da6, 8px 8px #819da6, 9px 9px #819da6, 10px 10px #819da6, 11px 11px #819da6, 12px 12px #819da6, 13px 13px #819da6, 14px 14px #819da6, 15px 15px #819da6, 16px 16px #819da6, 17px 17px #819da6, 18px 18px #819da6, 19px 19px #819da6, 20px 20px #819da6, 21px 21px #819da6, 22px 22px #819da6, 23px 23px #819da6, 24px 24px #819da6, 25px 25px #819da6, 26px 26px #819da6, 27px 27px #819da6, 28px 28px #819da6;
+}
+
+.levitate {
+    -webkit-animation-name: levitate;
+    -webkit-animation-duration: 5.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out ease-in-out;
+}
+
+@-webkit-keyframes levitate {
+    from {
+        -webkit-transform: translate(0, 0px);
+    }
+
+    45% {
+        -webkit-transform: translate(0, 15px);
+    }
+
+    to {
+        -webkit-transform: translate(0, -0px);
+    }
+}
+
+/* HAMBURGER */
+
+.hamburger {
+    border-bottom: red dashed 1px;
+    border-right: red dashed 1px;
+    /* right: 0; */
+    padding: 10px;
+    z-index: 5000;
+    position: absolute;
+    background-color: white;
+    border-bottom-right-radius: 15px;
+}
+
+.hamburger .line {
+    width: 45px;
+    height: 2px;
+    background-color: red;
+    display: block;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+#hamburger-1.is-active .line:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger-1.is-active .line:nth-child(1) {
+    -webkit-transform: translateY(7px) rotate(45deg);
+    -ms-transform: translateY(7px) rotate(45deg);
+    -o-transform: translateY(7px) rotate(45deg);
+    transform: translateY(7px) rotate(45deg);
+}
+
+#hamburger-1.is-active .line:nth-child(3) {
+    -webkit-transform: translateY(-7px) rotate(-45deg);
+    -ms-transform: translateY(-7px) rotate(-45deg);
+    -o-transform: translateY(-7px) rotate(-45deg);
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+/* NAVIGATION */
+
+.navigation {
+
+    /* padding: 1rem 2rem; */
+    /* padding-top: 5rem; */
+    /* margin-top: 3.28rem; */
+
+    /* right: 0; */
+    background-color: #fff;
+    /* width: 30%; */
+    height: 100vh;
+    overflow-y: hidden;
+    /* position: absolute; */
+    /* z-index: 5; */
+    /* background-color: #22313F; */
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.navigation::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(15, 89, 226, 0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.navigation::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.navigation::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(49, 46, 228, 0.3);
+	background-color: #3273dc;
+}
+
+.navigation.nav-is-active {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
+

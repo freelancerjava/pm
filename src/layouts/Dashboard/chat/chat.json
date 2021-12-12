@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Brooklyn Miles",
+        "order": "8456DCHN3214",
+        "outgoing": true,
+        "lastSeen": true,
+        "text": "Some random text from driver",
+        "time": "17:05",
+        "new": 0,
+        "online": true
+    },
+    {
+        "name": "Francisco Russell",
+        "order": "8456DCHN3214",
+        "outgoing": false,
+        "lastSeen": false,
+        "text": "Some random text from driver",
+        "time": "17:05",
+        "new": 1,
+        "online": false
+    },
+    {
+        "name": "Brooklyn Miles",
+        "order": "8456DCHN3214",
+        "outgoing": true,
+        "lastSeen": true,
+        "text": "Some random text from driver Some random text from driver unreaded Some random text from driver unreaded Some random text from driver unreaded",
+        "time": "17:05",
+        "new": 0,
+        "online": false
+    },
+    {
+        "name": "Brooklyn Miles",
+        "order": "8456DCHN3214",
+        "outgoing": true,
+        "lastSeen": true,
+        "text": "Some random text from driver",
+        "time": "17:05",
+        "new": 0,
+        "online": true
+    }
+]

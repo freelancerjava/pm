@@ -1,0 +1,14 @@
+.wrapper{
+    justify-content: center;
+    align-items: center;
+}
+.button.brand-color {
+    background-color: #CB1217;
+    border-color: transparent;
+    color: #fff;
+}
+a {
+    color: #CB1217;
+    cursor: pointer;
+    text-decoration: none;
+}

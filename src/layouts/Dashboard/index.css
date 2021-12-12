@@ -1,0 +1,53 @@
+table {
+  width: 100%;
+  margin: 0 !important; }
+  table th,
+  table td {
+    padding: 0 !important; }
+  table td,
+  table th {
+    border-bottom: 1px solid #e0dfdf !important; }
+
+.blur-bg {
+  border-radius: 5px;
+  color: #333;
+  font-family: sans-serif;
+  line-height: 1.5;
+  max-width: 50%; }
+  .blur-bg a {
+    color: blue; }
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .blur-bg {
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px); }
+  .warning {
+    display: none; } }
+
+.tabs-ul {
+  margin-bottom: 5px; }
+  .tabs-ul li > a {
+    background-color: #fff; }
+
+.equal-tabs {
+  width: 100%; }
+  .equal-tabs li {
+    width: 100%; }
+
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0; }
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em; }
+
+@media screen and (min-width: 1024px) {
+  .navbar-burger {
+    display: block; } }
+
+details {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none; }

@@ -1,0 +1,51 @@
+.mes:hover {
+    cursor: pointer;
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #4bb85a;
+    padding-left: 2% !important;
+    padding: 1%;
+    color: #f3f3f3;
+}
+.main-grid-show {
+    padding-right: 2%;
+    padding-left: 2%;
+    display: flex;
+    width: 100%;
+}
+
+.options-container {
+    background-color: #ffffff;
+    height: 150px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+
+.left-card {
+    padding-left: 10px;
+}
+
+.right-card {
+    padding-right: 10px;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.attachments-table {
+    width: 100%;
+}
